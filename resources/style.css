@@ -8,6 +8,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 li {
@@ -59,3 +60,9 @@ h1 {
 
 /* Client Testimonials */
 
+/* Img Gallery */
+.img-gallery img {
+    width: 25%;
+    left: 0;
+    right: 0;
+}
