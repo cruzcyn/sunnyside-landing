@@ -45,6 +45,8 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-size: 4rem;
+    color:hsl(0, 0%, 100%);
 }
 
 /* Description "cards" */
@@ -61,6 +63,29 @@ h1 {
 
 
 /* Client Testimonials */
+.client-testimonials h3{
+    text-align: center;
+    color: hsl(210, 4%, 67%);
+}
+
+.testimonial {
+    text-align: center;
+    margin: 30px;
+}
+
+.testimonial p {
+    font-weight: lighter;
+}
+
+.client-position {
+    color:hsl(210, 4%, 67%);
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.client-photo {
+    border-radius: 50%;
+}
 
 /* Img Gallery */
 .img-gallery img {
@@ -68,3 +93,5 @@ h1 {
     left: 0;
     right: 0;
 }
+
+/* Footer */ 
