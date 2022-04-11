@@ -1,11 +1,32 @@
 body{
-    background-color: hsl(0, 0%, 100%);
+    font-family: 'Barlow', sans-serif;
     font-size: 18px;
 }
 
 /* Header + Nav */
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 li {
     list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: lighter;
+    color:hsl(0, 0%, 100%);
+}
+
+.contact-btn {
+    font-family: 'Fraunces', sans-serif;
+    background-color:hsl(0, 0%, 100%);
+    color: hsl(213, 9%, 39%);
+    border-radius: 5px;
+    margin: 0 20px;
 }
 
 /* Hero */
@@ -24,18 +45,6 @@ h1 {
 }
 
 /* Description "cards" */
-.spec h2, h3 {
-    font-family: 'Fraunces', serif;
-}
-
-p {
-    font-family: 'Barlow', sans-serif;
-}
-
-.spec a {
-    font-family: 'Fraunces', serif;
-    text-decoration: underline;
-}
 
 .card-graphicdesign {
     background-image: url("resources/images/desktop/image-graphic-design.jpg");
@@ -46,4 +55,7 @@ p {
     background-image: url("resources/images/desktop/image-photography.jpg");
     color: hsl(198, 62%, 26%);
 }
+
+
+/* Client Testimonials */
 
