@@ -3,6 +3,10 @@ body{
     font-size: 18px;
 }
 
+.fraunces {
+    font-family: 'Fraunces', serif;
+}
+
 /* Header + Nav */
 .flexbox {
     display: flex;
@@ -23,7 +27,6 @@ li a {
 }
 
 .contact-btn {
-    font-family: 'Fraunces', sans-serif;
     background-color:hsl(0, 0%, 100%);
     color: hsl(213, 9%, 39%);
     border-radius: 5px;
@@ -39,7 +42,6 @@ li a {
 }
 
 h1 {
-    font-family: 'Fraunces', serif;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
