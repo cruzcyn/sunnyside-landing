@@ -1,0 +1,46 @@
+body{
+    background-color: hsl(0, 0%, 100%);
+    font-size: 18px;
+}
+
+/* Header + Nav */
+li {
+    list-style: none;
+}
+
+/* Hero */
+.hero {
+    background-image: url("resources/images/desktop/image-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Description "cards" */
+.spec h2, h3 {
+    font-family: 'Fraunces', serif;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+}
+
+.spec a {
+    font-family: 'Fraunces', serif;
+    text-decoration: underline;
+}
+
+.card-graphicdesign {
+    color: hsl(167, 40%, 24%);
+}
+
+.card-photography {
+    color: hsl(198, 62%, 26%);
+}
