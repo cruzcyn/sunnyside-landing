@@ -35,7 +35,7 @@ li a {
 
 /* Hero */
 .hero {
-    background-image: url("resources/images/desktop/image-header.jpg");
+    background-image: url("../resources/images/desktop/image-header.jpg");
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -52,12 +52,12 @@ h1 {
 /* Description "cards" */
 
 .card-graphicdesign {
-    background-image: url("resources/images/desktop/image-graphic-design.jpg");
+    background-image: url("../resources/images/desktop/image-graphic-design.jpg");
     color: hsl(167, 40%, 24%);
 }
 
 .card-photography {
-    background-image: url("resources/images/desktop/image-photography.jpg");
+    background-image: url("../resources/images/desktop/image-photography.jpg");
     color: hsl(198, 62%, 26%);
 }
 
