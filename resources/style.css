@@ -38,9 +38,12 @@ p {
 }
 
 .card-graphicdesign {
+    background-image: url("resources/images/desktop/image-graphic-design.jpg");
     color: hsl(167, 40%, 24%);
 }
 
 .card-photography {
+    background-image: url("resources/images/desktop/image-photography.jpg");
     color: hsl(198, 62%, 26%);
 }
+
