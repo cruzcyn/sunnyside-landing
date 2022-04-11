@@ -51,6 +51,14 @@ h1 {
 
 /* Description "cards" */
 
+.agency-features {
+    display: flex;
+    flex-wrap: wrap;
+}
+.agency-features div {
+    flex: 50%;
+}
+
 .card-graphicdesign {
     background-image: url("../resources/images/desktop/image-graphic-design.jpg");
     color: hsl(167, 40%, 24%);
