@@ -95,3 +95,21 @@ h1 {
 }
 
 /* Footer */ 
+footer {
+    background-color: hsl(168, 34%, 41%);
+    color: hsl(167, 40%, 24%);
+}
+
+.footer-logo{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.footer-nav, .socials {
+    color:hsl(167, 40%, 24%);
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+}
