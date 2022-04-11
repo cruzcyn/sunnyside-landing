@@ -20,6 +20,18 @@ html, body{
     width: 100%;
 }
 
+.navbar {
+    background: transparent;
+    z-index: 1001;
+    margin-bottom: -120px;
+}
+.nav-logo{
+    margin: 0px 20px;
+}
+
+.menu {
+    display: inline-flex;
+}
 li {
     list-style: none;
 }
@@ -34,8 +46,10 @@ li a {
 .contact-btn {
     background-color:hsl(0, 0%, 100%);
     color: hsl(213, 9%, 39%);
-    border-radius: 5px;
+    border-radius: 25px;
     margin: 0 20px;
+    z-index: 1002;
+    padding: 10px 30px;
 }
 
 /* Hero */
@@ -44,6 +58,8 @@ li a {
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
+    height: 100%;
+    z-index: 1000;
 }
 
 h1 {
@@ -52,6 +68,7 @@ h1 {
     text-align: center;
     font-size: 4rem;
     color:hsl(0, 0%, 100%);
+    padding-top: 20%;
 }
 
 /* Description "cards" */
